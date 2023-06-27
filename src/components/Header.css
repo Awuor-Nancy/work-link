@@ -1,18 +1,36 @@
+.container {
+  background-image: url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #fff;
+}
+
 .header {
   text-align: center;
+  display: grid;
+
 }
 
 .navbar {
   background-color: #f2f2f2;
   padding: 10px;
+
 }
 
 .nav-link {
-  margin: 0 10px;
+  margin: 0 20px;
   text-decoration: none;
   color: #333;
 }
 
 .nav-link.active {
   color: blue;
+}
+.logo{
+  text-align: left;
+  color: rgb(16, 200, 197);
+  margin: auto;
 }
