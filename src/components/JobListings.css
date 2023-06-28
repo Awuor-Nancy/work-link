@@ -1,0 +1,30 @@
+.joblistings {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #000;
+
+}
+
+.joblisting {
+  margin-bottom: 20px;
+}
+
+.joblisting h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.joblisting p {
+  font-size: 16px;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .joblistings {
+    width: 100%;
+  }
+
+  .joblisting {
+    margin-bottom: 10px;
+  }
+}

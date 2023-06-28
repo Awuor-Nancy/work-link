@@ -13,8 +13,8 @@ function Header() {
         <NavLink exact to="/" className="nav-link" activeClassName="active">
           Home
         </NavLink>
-        <NavLink to="/about" className="nav-link" activeClassName="active">
-          About
+        <NavLink to="/joblistings" className="nav-link" activeClassName="active">
+          JobListigs
         </NavLink>
         <NavLink to="/contact" className="nav-link" activeClassName="active">
           Contact
